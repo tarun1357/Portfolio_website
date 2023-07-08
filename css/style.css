@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px grey;
+}
+
+.name .logo{
+    width: 100px;
+}
+
+.nav-items{
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-items a{
+    text-decoration: none;
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    /* font-size: 20px; */
+    text-shadow: 1px 1px 2px grey;
+}
