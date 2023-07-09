@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;900&family=Roboto+Mono&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -25,8 +28,87 @@
                     <div><a href="#contactme">Contact Me</a></div>
                 </div>
             </div>
+            <div class="hero-section">
+                <div class="text-faded">Tarun</div>
+    
+                <div class="hero-left">
+                 <div class="hero-left-heading">
+                    This is Tarun
+                 </div>
+                 <div class="hero-left-heading hero-left-subheading">
+                    I am a <span class="role"></span>
+                 </div>
+                 <div class="hero-left-description">
+                    I'm a web developer and this is my portfolio website. Here you can checkout my projects and skills i possess.
+                 </div>
+                 <div class="btn-pink" onclick="toggle()" id="btn">
+                    <div class="btn">Hire me</div>
+                 </div>
+                </div>
+    
+    
+                <div class="hero-right">
+                  <div class="absolute icons icon1">
+                    <img src="imagesvideos/diamond.png" alt="">
+                  </div>
+                  <div class="absolute icons icon2">
+                    <img src="imagesvideos/triangle.png" alt="">
+                  </div>
+                  <div class="absolute icons icon3">
+                    <img src="imagesvideos/foldericon.png" alt="">
+                  </div>
+                  <div class="absolute icons icon4">
+                    <img src="imagesvideos/pngwing.com (2).png" alt="">
+                  </div>
+                  <div class="absolute icons icon5">
+                    <img src="imagesvideos/plusicon.png" alt="">
+                  </div>
+                  <div class="usericon">
+                    <img src="imagesvideos/user.jpg" alt="">
+                  </div>
+                </div>
+    
+    
+            </div>
+            
+            
+
         </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script>
+        var typeData = new Typed(".role", {
+          strings: [
+            "Web Developer",
+            "Coder",
+          ],
+          loop: true,
+          typeSpeed: 100,
+          backSpeed: 80,
+          backDelay: 1000,
+        });
+
+        
+        let togg = document.getElementById('btn');
+        function toggle(){
+        togg.style.transform == 'scale(0.9)';
+        }
+        
+
+      </script>
     
 </body>
-</html>
+</html> 
