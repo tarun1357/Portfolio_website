@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;900&family=Roboto+Mono&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;900&family=Roboto+Mono&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -30,50 +32,109 @@
             </div>
             <div class="hero-section">
                 <div class="text-faded">Tarun</div>
-    
+
                 <div class="hero-left">
-                 <div class="hero-left-heading">
-                    This is Tarun
-                 </div>
-                 <div class="hero-left-heading hero-left-subheading">
-                    I am a <span class="role"></span>
-                 </div>
-                 <div class="hero-left-description">
-                    I'm a web developer and this is my portfolio website. Here you can checkout my projects and skills i possess.
-                 </div>
-                 <div class="btn-pink" onclick="toggle()" id="btn">
-                    <div class="btn">Hire me</div>
-                 </div>
+                    <div class="hero-left-heading">
+                        This is Tarun
+                    </div>
+                    <div class="hero-left-heading hero-left-subheading">
+                        I am a <span class="role"></span>
+                    </div>
+                    <div class="hero-left-description">
+                        I'm a web developer and this is my portfolio website. Here you can checkout my projects and
+                        skills i possess.
+                    </div>
+                    <div class="btn-pink" onclick="toggle()" id="btn">
+                        <div class="btn">Hire me</div>
+                    </div>
                 </div>
-    
-    
+
+
                 <div class="hero-right">
-                  <div class="absolute icons icon1">
-                    <img src="imagesvideos/diamond.png" alt="">
-                  </div>
-                  <div class="absolute icons icon2">
-                    <img src="imagesvideos/triangle.png" alt="">
-                  </div>
-                  <div class="absolute icons icon3">
-                    <img src="imagesvideos/foldericon.png" alt="">
-                  </div>
-                  <div class="absolute icons icon4">
-                    <img src="imagesvideos/pngwing.com (2).png" alt="">
-                  </div>
-                  <div class="absolute icons icon5">
-                    <img src="imagesvideos/plusicon.png" alt="">
-                  </div>
-                  <div class="usericon">
-                    <img src="imagesvideos/user.jpg" alt="">
-                  </div>
+                    <div class="absolute icons icon1">
+                        <img src="imagesvideos/diamond.png" alt="">
+                    </div>
+                    <div class="absolute icons icon2">
+                        <img src="imagesvideos/triangle.png" alt="">
+                    </div>
+                    <div class="absolute icons icon3">
+                        <img src="imagesvideos/foldericon.png" alt="">
+                    </div>
+                    <div class="absolute icons icon4">
+                        <img src="imagesvideos/pngwing.com (2).png" alt="">
+                    </div>
+                    <div class="absolute icons icon5">
+                        <img src="imagesvideos/plusicon.png" alt="">
+                    </div>
+                    <div class="usericon">
+                        <img src="imagesvideos/user.jpg" alt="">
+                    </div>
                 </div>
-    
-    
+
+
             </div>
-            
-            
 
         </div>
+
+        <div class="project-section">
+            <h2 class="project-header">Projects</h2>
+
+            <div class="project-container" id="projects">
+                <div class="project-card" id="project1">
+                    <div class="project-number project-number-left">01</div>
+                    <div class="project-content project-content-left" >
+                        <div class="projects-skill-container">
+                            <div class="projectskilss"><img  src="imagesvideos/htmlicon.png" alt=""></div>
+                            <div class="projectskilss"><img  src="imagesvideos/cssicon.png" alt=""></div>
+                            <div class="projectskilss"><img  src="imagesvideos/jsicon.svg" alt=""></div>
+                        </div>
+                        <h2 class="project-heading">Netflix Homepage</h2>
+                        <div class="project-subheading">
+                            HTML, CSS and Javascript clone webpage of popular streaming website "NETFLIX INDIA"
+                        </div>
+
+                        <div class="btn-grp">
+                            <div class="btn-pink" onclick="toggle()" id="btn">
+                                <div class="btn">Read more</div>
+                            </div>
+                            <div class="github-icon">
+                                <a href="https://github.com/tarun1357/Netflix_homepage.git" target="#"><img
+                                        src="imagesvideos/Github.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="project-card" id="project2">
+                    <div class="project-number project-number-right">02</div>
+                    <div class="project-content project-content-right">
+                        <div class="projects-skill-container">
+                            <div class="projectskilss"><img src="imagesvideos/htmlicon.png" alt=""></div>
+                            <div class="projectskilss"><img src="imagesvideos/cssicon.png" alt=""></div>
+                            <div class="projectskilss"><img src="imagesvideos/jsicon.svg" alt=""></div>
+                        </div>
+                        <h2 class="project-heading">Gym Website</h2>
+                        <div class="project-subheading">
+                            HTML and CSS webpage of a gym website with enquiry portal form.
+                        </div>
+
+                        <div class="btn-grp">
+                            <div class="btn-pink" onclick="toggle()" id="btn">
+                                <div class="btn">Read more</div>
+                            </div>
+                            <div class="gitgub-icon">
+                                <a href="https://github.com/tarun1357/gym_website.git" target="#"><img
+                                        src="imagesvideos/Github.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </div>
 
 
@@ -86,29 +147,30 @@
 
 
 
-    
+
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
     <script>
         var typeData = new Typed(".role", {
-          strings: [
-            "Web Developer",
-            "Coder",
-          ],
-          loop: true,
-          typeSpeed: 100,
-          backSpeed: 80,
-          backDelay: 1000,
+            strings: [
+                "Web Developer",
+                "Coder",
+            ],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1000,
         });
 
-        
-        let togg = document.getElementById('btn');
-        function toggle(){
-        togg.style.transform == 'scale(0.9)';
-        }
-        
 
-      </script>
-    
+        let togg = document.getElementById('btn');
+        function toggle() {
+            togg.style.transform == 'scale(0.9)';
+        }
+
+
+    </script>
+
 </body>
-</html> 
+
+</html>
