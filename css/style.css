@@ -80,7 +80,7 @@ img{
 .text-faded{
     user-select: none;
     position: absolute;
-    bottom: -16%;
+    bottom: -18%;
     left: -5%;
     font-size: 7em;
     color: rgb(231, 231, 231);
@@ -95,6 +95,7 @@ img{
     gap: 2rem;
     
 }
+
 
 .btn-pink{
     position: relative;
@@ -319,6 +320,7 @@ img{
     color: white;
 }
 
+
 .project-card{
     width: 90%;
     height: 550px;
@@ -326,7 +328,15 @@ img{
     background-repeat: no-repeat;
     position: relative;
     box-shadow: 0px 0px 40px #1f1f1f;
+    transition: all 0.4s ease;
+    margin: 4rem 0;
 }
+
+.project-card:hover .project-content{
+    transform: scale(1.1);
+
+}
+
 
 #project1{
     background-image: url(../imagesvideos/pr1_netflix.png);
@@ -405,6 +415,8 @@ img{
     transition: all 0.4s;
 }
 
+
+
 .project-content-left{
     left: 10%;
 }
@@ -442,8 +454,128 @@ img{
     font-style: italic;
 }
 
-.iconic{
+.icon{
     cursor: pointer;
     color: white;
-    width: 40px;
+    font-size: 60px;
+    transition: all 0.4s ease;
+}
+
+.icon:hover{
+    color: var(--bgor);
+}
+
+.skills-container{
+    display: flex;
+    position: relative;
+    padding: 5rem;
+    margin: 10rem auto;
+    gap: 30px;
+   }
+
+.skill-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-right{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    position: relative;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.skill-fade-text{
+    position: absolute;
+    font-size: 15em;
+    color: rgb(231,231,231);
+    font-weight: bold;
+    bottom: -34.5%;
+    right: -25%;
+    user-select: none;
+}
+
+.blob-style{
+    position: absolute;
+    top: 28%;
+    left: 22%;
+    width: 18rem;
+    z-index: -1;
+    animation: blob 3s linear infinite;
+}
+
+@keyframes blob{
+50%{
+    left: 30%;
+    top: 22%;
+}
+}
+
+.skills-logo{
+    width: 8em;
+    height: 8em;
+    transition: all 0.4s ease;
+}
+
+.skills-logo:hover{
+    transform: scale(1.1);
+}
+
+.skill-heading-left{
+    font-size: 50px;
+    font-style: bold;
+    color: var(--bgor);
+    line-height: 50px;
+}
+
+.caps{
+    font-size: 80px;
+}
+
+.skill-subheading{
+    margin-top: 1rem;
+    width: 85%;
+    text-align: justify;
+
+}
+
+.skill-subheading p{
+    margin: 15px 0 ;
+}
+
+
+.contact-section{
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+}
+
+
+.contact-heading{
+    font-size: 6em;
+    color: var(--bgor);
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.contact-subheading{
+    font-size: 3rem;
+    color: grey;
+    text-align: center;
+}
+.links{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.links img{
+    width: 8rem;
+    margin: 3rem 2rem;
+}
+
+a{
+    text-decoration: none;
 }
