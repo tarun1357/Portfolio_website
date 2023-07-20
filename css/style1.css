@@ -130,14 +130,14 @@
     left: -1rem;
 }
 
-.skills-container{
+#skills{
     flex-direction: column;
     width: 100vw;
 }
 
 .skill-left{
     width: 100vw;
-    padding: 0 4rem;
+    margin-left: 0;
 }
 
 .skill-right{
@@ -150,3 +150,32 @@
     bottom: -6rem;
     right: 2rem;
 }
+
+.skills-logo{
+    width: 3em;
+    height: 3em;
+}
+
+.blob-style{
+    width: 8rem;
+    left: 25%;
+}
+
+.contact-heading{
+    font-size: 3em;
+}
+
+.contact-subheading{
+    font-size: 1.5em;
+}
+
+.links img{
+    width: 3rem;
+    /* margin: 3rem 2rem; */
+}
+
+.skill-heading-left{
+    text-align: center;
+}
+
+.skill-left
