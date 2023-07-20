@@ -1,0 +1,152 @@
+#wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    color: grey;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px grey;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+.nav-items {
+    display: none;
+    position: relative;
+    gap: 2rem;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+
+.hero-section{
+    flex-direction: column;
+}
+
+.text-faded{
+    bottom: -10%;
+    left: 1%;
+}
+
+.hero-left{
+    justify-content: center;
+}
+
+.center{
+    align-self: center;
+}
+
+
+.project-container{
+    width: 100vw;
+}
+
+.project-card{
+    width: 90%;
+    height: 30vh;
+    align-self: center;
+}
+
+.project-content{
+    width: 100%;
+    bottom: 5%;
+}
+
+.project-number{
+    font-size: 5em;
+}
+
+.project-content-left{
+    align-self: center;
+}
+
+.project-content-right{
+    align-self: center;
+}
+
+.project-heading{
+    font-size: 1.5rem;
+}
+
+.project-section .btn-pink{
+    width: 9em;
+    height: 4em;
+    font-size: 0.7em;
+    padding: 0;
+    padding-top: 0.7em;
+    padding-left: 0.3em;
+}
+
+.project-subheading{
+    display: none;
+}
+
+.project-skill-container{
+    align-self: center;
+    width: 100%;
+    flex-direction: row;
+}
+
+.projectskilss img{
+    width: 3em;
+}
+
+#project1, #project2{
+    align-self: center;
+}
+
+.project-content-left{
+    left: 30%;
+}
+
+.project-content-right{
+    left: 30%;
+}
+
+.project-number-left{
+    top: -3rem;
+    left: -1rem;
+}
+
+.project-number-right{
+    top: -3rem;
+    left: -1rem;
+}
+
+.skills-container{
+    flex-direction: column;
+    width: 100vw;
+}
+
+.skill-left{
+    width: 100vw;
+    padding: 0 4rem;
+}
+
+.skill-right{
+    width: 100%;
+    left: 0;
+}
+
+.skill-fade-text{
+    font-size: 8rem;
+    bottom: -6rem;
+    right: 2rem;
+}
