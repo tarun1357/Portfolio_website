@@ -348,6 +348,7 @@ img{
 
 #project1{
     background-image: url(../imagesvideos/pr1_netflix.png);
+    background-size: cover;
     align-self: flex-start;
 
 }
