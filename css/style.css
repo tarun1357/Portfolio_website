@@ -38,7 +38,15 @@
 }
 
 .name .logo{
+    position: relative;
+    left: 10px;
     width: 100px;
+    z-index: -1;
+}
+
+.name .head{
+    position: relative;
+    right: 10px;
 }
 
 .nav-items{
