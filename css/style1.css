@@ -137,7 +137,8 @@
 
 .skill-left{
     width: 100vw;
-    margin-left: 0;
+    position: relative;
+    left: -3rem;
 }
 
 .skill-right{
