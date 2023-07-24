@@ -355,16 +355,21 @@ img{
 
 }
 
-
 #project1{
-    background-image: url(../imagesvideos/pr1_netflix.png);
+    background-image: url(../imagesvideos/parallax_webpreview.png);
     background-size: cover;
     align-self: flex-start;
-
 }
 
 #project2{
+    background-image: url(../imagesvideos/pr1_netflix.png);
+    background-size: cover;
     align-self: flex-end;
+
+}
+
+#project3{
+    align-self: flex-start;
     background-image: url(../imagesvideos/pr2_gym.png);
 }
 

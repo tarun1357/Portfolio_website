@@ -108,7 +108,7 @@
     width: 3em;
 }
 
-#project1, #project2{
+#project1, #project2,#project3{
     align-self: center;
 }
 
@@ -153,8 +153,8 @@
 }
 
 .skills-logo{
-    width: 5em;
-    height: 5em;
+    width: 3em;
+    height: 3em;
 }
 
 .blob-style{
